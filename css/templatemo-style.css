@@ -733,3 +733,9 @@ hr{
 .mb-5{
   margin-bottom: 30px !important;
 }
+.skill-title{
+  
+    text-align: left;
+    text-transform: uppercase;
+    color: #695f51;
+}
