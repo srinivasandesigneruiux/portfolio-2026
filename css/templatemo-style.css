@@ -513,7 +513,7 @@ input { height: 50px; }
 }
 /* END MEDIA 360 */
 .f-bg{
-    background-color: #c8bdae;
+    background-color: #fff;
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -739,3 +739,8 @@ hr{
     text-transform: uppercase;
     color: #695f51;
 }
+.form-control {
+  height: 50px !important;
+}
+.gs{
+  padding: auto;}
