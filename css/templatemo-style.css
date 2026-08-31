@@ -73,7 +73,7 @@ hr {
   padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background: #2c2721;
+  background: #ffffff;
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -534,7 +534,9 @@ a:focus {
     outline: none !important;
     outline: none !important;
 }
-
+.navbar-default .navbar-brand {
+  line-height: 20px;
+}
 
 .neon-text {
     font-size: 4rem;
