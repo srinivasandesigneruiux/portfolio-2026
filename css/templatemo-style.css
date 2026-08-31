@@ -513,6 +513,9 @@ input { height: 50px; }
 /* START MEDIA 360 */
 @media screen and (max-width:360px){
   .navbar-default .navbar-brand {  padding-top: 2px; }
+  .navbar-default .navbar-brand {
+  line-height: 20px;
+}
 }
 /* END MEDIA 360 */
 .f-bg{
@@ -534,9 +537,7 @@ a:focus {
     outline: none !important;
     outline: none !important;
 }
-.navbar-default .navbar-brand {
-  line-height: 20px;
-}
+
 
 .neon-text {
     font-size: 4rem;
