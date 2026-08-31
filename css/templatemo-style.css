@@ -7,7 +7,7 @@ https://templatemo.com/tm-464-ultra-profile
 */
 
 body {
-  background: #c4bcb1;
+  background: #D0C9BD;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #606060;
@@ -25,7 +25,7 @@ hr {
   margin-bottom: 40px;
 }
 .title {
-  color: #695f51;
+  color: #2c2721;
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
@@ -34,7 +34,7 @@ hr {
 /* START NAVIGATION */
 .sticky-navigation { opacity: 0; }
 .navbar-default {
-  background: #695f51;
+  background: #2C2721;
   border: none;
   -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
           box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
@@ -42,30 +42,31 @@ hr {
   padding: 0;
 }
 .navbar-default .navbar-brand {
-  color: #212227;
+  color: #F7F5F1;
   font-weight: bold;
   font-size: 30px;
   line-height: 45px;
-  padding: 10px 0 0 12px;
+  /* padding: 10px 0 0 12px; */
 }
 .navbar-default .navbar-nav li a {
   color: #c9bfaf;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 45px;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav li a:hover { color: #2c2721; }
+.navbar-default .navbar-nav li a:hover { color: #fff; }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #2c2721;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #2c2721;
+  color: #fff;
   background-color: transparent;
+  font-weight: bold;
 }
 .navbar-default .navbar-toggle {
   border: none;
@@ -139,7 +140,7 @@ hr {
  }
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #2c2721;
+  color: #2C2721;
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
@@ -254,11 +255,13 @@ hr {
 .tm-portfolio-title {
   text-align: center;
   text-transform: uppercase;
+  color: #2c2721;
 }
 .portfolio-item-title {
   font-weight: bold;
   margin-top: 10px;
   text-transform: uppercase;
+  color: #2c2721;
 }
 .portfolio-thumb {
   overflow: hidden;
@@ -390,10 +393,10 @@ hr {
 }
 .tm-progress {
   background: #fff;
-  border-radius: 2px;
-  height: 4px;
+  border-radius: 6px;
+  height: 6px;
 }
-.progress-bar-danger { background: #2c2721; }
+.progress-bar-danger { background:linear-gradient(135deg, #2C2721, #4A4035, #6B5A47); }
 .tm-progress-label {
   font-size: 12px;
   font-weight: bold;
@@ -744,3 +747,7 @@ hr{
 }
 .gs{
   padding: auto;}
+
+
+
+  
